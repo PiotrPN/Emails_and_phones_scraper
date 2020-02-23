@@ -12,6 +12,7 @@ landlineNumberRegex = re.compile(r"""
 \d\d    #last two digits
 """, re.VERBOSE)
 
+
 cellphoneNumberRegex = re.compile(r"""
 \(?         #optional bracelet
 \+?         #plus before code
@@ -25,6 +26,7 @@ cellphoneNumberRegex = re.compile(r"""
 \d\d\d      #last three digits
 """
 , re.VERBOSE)
+
 
 emailRegex = re.compile(r"""
 [ab-z]     #start with letter
