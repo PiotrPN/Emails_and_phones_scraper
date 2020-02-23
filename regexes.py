@@ -25,6 +25,7 @@ cellphoneNumberRegex = re.compile(r"""
 \d\d\d      #last three digits
 """
 , re.VERBOSE)
+
 emailRegex = re.compile(r"""
 [ab-z]     #start with letter
 \S+        #adres name
